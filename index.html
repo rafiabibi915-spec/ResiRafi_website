@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ResiRafi - Resin Art</title>
+<style>
+body {font-family: Arial, sans-serif; margin:0; padding:0; background:#f7f7f7;}
+header {background:#222; color:#fff; padding:20px; text-align:center;}
+nav {background:#333; padding:10px; text-align:center;}
+nav a {color:white; margin:0 10px; text-decoration:none; font-weight:bold;}
+section {padding:20px;}
+.product-grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px;}
+.card {background:#fff; padding:15px; border-radius:10px; box-shadow:0 2px 4px rgba(0,0,0,0.1); text-align:center;}
+footer {background:#eee; padding:20px; text-align:center;}
+button {padding:10px 15px; border:none; background:#222; color:#fff; border-radius:6px; cursor:pointer;}
+input, textarea {width:100%; padding:10px; margin:8px 0; border-radius:6px; border:1px solid #ccc;}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>ResiRafi - Resin Art Creations</h1>
+  <p>Handmade Resin Products • Custom Orders Available</p>
+</header>
+
+<nav>
+  <a href="#products">Products</a>
+  <a href="#prices">Prices</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="products">
+  <h2>Product Categories</h2>
+  <p>Select from our handmade resin items:</p>
+
+  <div class="product-grid">
+    <div class="card">
+      <h3>Resin Keychains</h3>
+      <img src="https://via.placeholder.com/200" width="100%" />
+      <p>Custom name keychains in beautiful colors.</p>
+      <button onclick="location.href='https://wa.me/923235408260'">Order on WhatsApp</button>
+    </div>
+
+    <div class="card">
+      <h3>Resin Trays</h3>
+      <img src="https://via.placeholder.com/200" width="100%" />
+      <p>Elegant handmade trays perfect for décor.</p>
+      <button onclick="location.href='https://wa.me/923235408260'">Order on WhatsApp</button>
+    </div>
+
+    <div class="card">
+      <h3>Resin Coasters</h3>
+      <img src="https://via.placeholder.com/200" width="100%" />
+      <p>Glossy coasters for home & gifts.</p>
+      <button onclick="location.href='https://wa.me/923235408260'">Order on WhatsApp</button>
+    </div>
+
+    <div class="card">
+      <h3>Resin Jewelry</h3>
+      <img src="https://via.placeholder.com/200" width="100%" />
+      <p>Beautiful pendants, earrings, and rings.</p>
+      <button onclick="location.href='https://wa.me/923235408260'">Order on WhatsApp</button>
+    </div>
+
+  </div>
+</section>
+
+<section id="prices">
+  <h2>Prices (You can edit)</h2>
+  <ul contenteditable="true">
+    <li>Resin Keychains — 250–500 PKR</li>
+    <li>Resin Trays — 1200–2500 PKR</li>
+    <li>Resin Coasters — 600–1200 PKR</li>
+    <li>Resin Jewelry — 800–2000 PKR</li>
+  </ul>
+  <p><i>You can click and edit the prices directly on the page.</i></p>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <p>Here are sample images of resin artwork. Replace these with your own photos anytime.</p>
+  <div class="product-grid">
+    <img src="https://via.placeholder.com/250" />
+    <img src="https://via.placeholder.com/250" />
+    <img src="https://via.placeholder.com/250" />
+    <img src="https://via.placeholder.com/250" />
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Form</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea rows="5" placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <br>
+  <button onclick="location.href='https://instagram.com/RafiA'">Follow on Instagram</button>
+</section>
+
+<footer>
+  <p>© 2025 ResiRafi Resin Art</p>
+</footer>
+
+</body>
+</html>
